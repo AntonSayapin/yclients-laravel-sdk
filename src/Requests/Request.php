@@ -76,6 +76,8 @@ abstract class Request
             'timeout'  => 10,
             'headers'  => [
                 'Authorization' => $authorization,
+	            'Content-Type' => 'application/json',
+	            'Accept' => 'application/vnd.api.v2+json'
             ],
         ]);
     }
