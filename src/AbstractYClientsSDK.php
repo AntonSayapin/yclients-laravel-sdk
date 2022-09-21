@@ -1,6 +1,6 @@
 <?php
 
-namespace nikitin\YClientsSDK;
+namespace antonsayapin\YClientsSDK;
 
 class AbstractYClientsSDK
 {

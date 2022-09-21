@@ -1,11 +1,11 @@
 <?php
 
-namespace nikitin\YClientsSDK\Requests\Transactions;
+namespace antonsayapin\YClientsSDK\Requests\Transactions;
 
 use Carbon\Carbon;
-use nikitin\YClientsSDK\Requests\Request;
-use nikitin\YClientsSDK\Requests\Traits\Company;
-use nikitin\YClientsSDK\Requests\Traits\Paginated;
+use antonsayapin\YClientsSDK\Requests\Request;
+use antonsayapin\YClientsSDK\Requests\Traits\Company;
+use antonsayapin\YClientsSDK\Requests\Traits\Paginated;
 
 class TransactionsByFilter extends Request
 {

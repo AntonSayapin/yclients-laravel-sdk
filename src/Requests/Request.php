@@ -1,10 +1,10 @@
 <?php
 
-namespace nikitin\YClientsSDK\Requests;
+namespace antonsayapin\YClientsSDK\Requests;
 
 use GuzzleHttp\Client;
 use Illuminate\Support\Collection;
-use nikitin\YClientsSDK\Exceptions\RequestException;
+use antonsayapin\YClientsSDK\Exceptions\RequestException;
 
 abstract class Request
 {

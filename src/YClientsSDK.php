@@ -1,26 +1,26 @@
 <?php
 
-namespace nikitin\YClientsSDK;
+namespace antonsayapin\YClientsSDK;
 
-use nikitin\YClientsSDK\Requests\Authorization;
-use nikitin\YClientsSDK\Requests\Clients;
-use nikitin\YClientsSDK\Requests\Companies;
-use nikitin\YClientsSDK\Requests\Documents;
-use nikitin\YClientsSDK\Requests\Goods;
-use nikitin\YClientsSDK\Requests\GoodsTransactions\TransactionsSearch;
-use nikitin\YClientsSDK\Requests\Groups;
-use nikitin\YClientsSDK\Requests\Records;
-use nikitin\YClientsSDK\Requests\Schedules;
-use nikitin\YClientsSDK\Requests\Seances;
-use nikitin\YClientsSDK\Requests\ServiceCategory;
-use nikitin\YClientsSDK\Requests\Services;
-use nikitin\YClientsSDK\Requests\Staff;
-use nikitin\YClientsSDK\Requests\Storages;
-use nikitin\YClientsSDK\Requests\Transactions\TransactionsByFilter;
-use nikitin\YClientsSDK\Requests\Users;
-use nikitin\YClientsSDK\Requests\Visits\VisitDetails;
-use nikitin\YClientsSDK\Requests\Visits\Visits;
-use nikitin\YClientsSDK\Requests\ZReport;
+use antonsayapin\YClientsSDK\Requests\Authorization;
+use antonsayapin\YClientsSDK\Requests\Clients;
+use antonsayapin\YClientsSDK\Requests\Companies;
+use antonsayapin\YClientsSDK\Requests\Documents;
+use antonsayapin\YClientsSDK\Requests\Goods;
+use antonsayapin\YClientsSDK\Requests\GoodsTransactions\TransactionsSearch;
+use antonsayapin\YClientsSDK\Requests\Groups;
+use antonsayapin\YClientsSDK\Requests\Records;
+use antonsayapin\YClientsSDK\Requests\Schedules;
+use antonsayapin\YClientsSDK\Requests\Seances;
+use antonsayapin\YClientsSDK\Requests\ServiceCategory;
+use antonsayapin\YClientsSDK\Requests\Services;
+use antonsayapin\YClientsSDK\Requests\Staff;
+use antonsayapin\YClientsSDK\Requests\Storages;
+use antonsayapin\YClientsSDK\Requests\Transactions\TransactionsByFilter;
+use antonsayapin\YClientsSDK\Requests\Users;
+use antonsayapin\YClientsSDK\Requests\Visits\VisitDetails;
+use antonsayapin\YClientsSDK\Requests\Visits\Visits;
+use antonsayapin\YClientsSDK\Requests\ZReport;
 
 class YClientsSDK extends AbstractYClientsSDK
 {

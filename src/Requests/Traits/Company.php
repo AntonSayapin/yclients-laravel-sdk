@@ -1,6 +1,6 @@
 <?php
 
-namespace nikitin\YClientsSDK\Requests\Traits;
+namespace antonsayapin\YClientsSDK\Requests\Traits;
 
 trait Company
 {

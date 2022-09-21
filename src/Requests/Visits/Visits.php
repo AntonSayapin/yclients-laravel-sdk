@@ -1,8 +1,8 @@
 <?php
 
-namespace nikitin\YClientsSDK\Requests\Visits;
+namespace antonsayapin\YClientsSDK\Requests\Visits;
 
-use nikitin\YClientsSDK\Requests\Request;
+use antonsayapin\YClientsSDK\Requests\Request;
 
 class Visits extends Request
 {

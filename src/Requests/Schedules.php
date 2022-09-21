@@ -1,10 +1,10 @@
 <?php
 
-namespace nikitin\YClientsSDK\Requests;
+namespace antonsayapin\YClientsSDK\Requests;
 
 use Carbon\Carbon;
-use nikitin\YClientsSDK\Requests\Traits\Company;
-use nikitin\YClientsSDK\Requests\Traits\Staff;
+use antonsayapin\YClientsSDK\Requests\Traits\Company;
+use antonsayapin\YClientsSDK\Requests\Traits\Staff;
 
 class Schedules extends Request
 {

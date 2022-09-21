@@ -1,6 +1,6 @@
 <?php
 
-namespace nikitin\YClientsSDK\Exceptions;
+namespace antonsayapin\YClientsSDK\Exceptions;
 
 class Exception extends \Exception
 {

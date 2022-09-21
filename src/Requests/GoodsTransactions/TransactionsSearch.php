@@ -1,12 +1,12 @@
 <?php
 
-namespace nikitin\YClientsSDK\Requests\GoodsTransactions;
+namespace antonsayapin\YClientsSDK\Requests\GoodsTransactions;
 
-use nikitin\YClientsSDK\Requests\Request;
-use nikitin\YClientsSDK\Requests\Traits\Company;
-use nikitin\YClientsSDK\Requests\Traits\DatesPeriod;
-use nikitin\YClientsSDK\Requests\Traits\Document;
-use nikitin\YClientsSDK\Requests\Traits\Paginated;
+use antonsayapin\YClientsSDK\Requests\Request;
+use antonsayapin\YClientsSDK\Requests\Traits\Company;
+use antonsayapin\YClientsSDK\Requests\Traits\DatesPeriod;
+use antonsayapin\YClientsSDK\Requests\Traits\Document;
+use antonsayapin\YClientsSDK\Requests\Traits\Paginated;
 
 class TransactionsSearch extends Request
 {

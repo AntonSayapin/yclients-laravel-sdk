@@ -33,7 +33,7 @@
   },
   "autoload": {
     "psr-4": {
-      "nikitin\\YClientsSDK\\": "src"
+      "antonsayapin\\YClientsSDK\\": "src"
     }
   },
   "extra": {

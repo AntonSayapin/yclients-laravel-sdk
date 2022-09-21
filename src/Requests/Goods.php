@@ -1,9 +1,9 @@
 <?php
 
-namespace nikitin\YClientsSDK\Requests;
+namespace antonsayapin\YClientsSDK\Requests;
 
-use nikitin\YClientsSDK\Requests\Traits\Company;
-use nikitin\YClientsSDK\Requests\Traits\PaginatedWithoutCount;
+use antonsayapin\YClientsSDK\Requests\Traits\Company;
+use antonsayapin\YClientsSDK\Requests\Traits\PaginatedWithoutCount;
 
 class Goods extends Request
 {

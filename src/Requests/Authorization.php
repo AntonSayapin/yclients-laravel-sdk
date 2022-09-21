@@ -1,6 +1,6 @@
 <?php
 
-namespace nikitin\YClientsSDK\Requests;
+namespace antonsayapin\YClientsSDK\Requests;
 
 class Authorization extends Request
 {

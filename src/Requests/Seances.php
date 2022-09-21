@@ -1,10 +1,10 @@
 <?php
 
-namespace nikitin\YClientsSDK\Requests;
+namespace antonsayapin\YClientsSDK\Requests;
 
-use nikitin\YClientsSDK\Requests\Traits\Company;
-use nikitin\YClientsSDK\Requests\Traits\Date;
-use nikitin\YClientsSDK\Requests\Traits\Staff;
+use antonsayapin\YClientsSDK\Requests\Traits\Company;
+use antonsayapin\YClientsSDK\Requests\Traits\Date;
+use antonsayapin\YClientsSDK\Requests\Traits\Staff;
 
 class Seances extends Request
 {
