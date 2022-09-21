@@ -42,6 +42,24 @@ abstract class Request
         }
     }
 
+	/**
+	 * @throws RequestException
+	 *
+	 * @return Collection
+	 */
+	final public function put()
+	{
+		$this->setAccountSettings();
+
+		echo "Put" ;
+
+		try {
+			return $this->request("PUT");
+		} catch (\Exception $e) {
+			throw new Exception($e->getMessage(), $e->getCode());
+		}
+	}
+
     /**
      * @param string | array $account
      *
