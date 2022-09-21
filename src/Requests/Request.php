@@ -47,11 +47,25 @@ abstract class Request
 	 *
 	 * @return Collection
 	 */
-	final public function put()
+	final public function post()
 	{
 		$this->setAccountSettings();
 
-		echo "Put" ;
+		try {
+			return $this->request("POST");
+		} catch (\Exception $e) {
+			throw new Exception($e->getMessage(), $e->getCode());
+		}
+	}
+
+	/**
+	 * @throws RequestException
+	 *
+	 * @return Collection
+	 */
+	final public function put()
+	{
+		$this->setAccountSettings();
 
 		try {
 			return $this->request("PUT");

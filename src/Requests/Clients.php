@@ -9,8 +9,14 @@ class Clients extends Request
 {
     use Company, Paginated;
 
-    protected function request()
-    {
-        return $this->paginateRequest("clients/{$this->company_id}");
-    }
+	protected function request($method = "GET")
+	{
+		switch( $method ) {
+			case "POST" :
+				return $this->requestApi("clients/{$this->company_id}",$method);
+			case "GET" :
+			default:
+				return $this->paginateRequest("clients/{$this->company_id}");
+		}
+	}
 }
