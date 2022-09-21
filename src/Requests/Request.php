@@ -152,4 +152,16 @@ abstract class Request
             $this->userToken = config('yclients-laravel-sdk.accounts.'.$this->account.'.user_token');
         }
     }
+
+	/**
+	 * @param $params
+	 *
+	 * @return $this
+	 */
+	public function setParams($params)
+	{
+		$this->params = $params;
+
+		return $this;
+	}
 }
