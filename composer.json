@@ -1,12 +1,12 @@
 {
-  "name": "e-nikitin/yclients-laravel-sdk",
+  "name": "antonsayapin/yclients-laravel-sdk",
   "type": "library",
-  "description": "yclients laravel sdk",
+  "description": "yclients laravel sdk. Fork from Nikitin SDK",
   "keywords": [
     "nikitin",
     "yclients"
   ],
-  "homepage": "https://github.com/e-nikitin/yclients-laravel-sdk",
+  "homepage": "https://github.com/antonsayapin/yclients-laravel-sdk",
   "license": "MIT",
   "authors": [
     {
@@ -18,13 +18,18 @@
       "name": "Aleksandr Kravchenko",
       "email": "a.kravchenko@smart-metrika.com",
       "role": "Developer"
+    },
+    {
+      "name": "Anton Sayapin",
+      "email": "ant.sayapin@gmail.com",
+      "role": "Developer"
     }
   ],
   "require": {
-    "php": ">=7.1",
+    "php": ">=8.0.2",
     "illuminate/support": ">=5.4",
-    "nesbot/carbon": ">=1.0",
-    "guzzlehttp/guzzle": ">=6.3"
+    "nesbot/carbon": ">=2.62.1",
+    "guzzlehttp/guzzle": ">=7.2"
   },
   "autoload": {
     "psr-4": {
@@ -34,10 +39,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "nikitin\\YClientsSDK\\YClientsSDKServiceProvider"
+        "antonsayapin\\YClientsSDK\\YClientsSDKServiceProvider"
       ],
       "aliases": {
-        "YClientsSDK": "nikitin\\YClientsSDK\\Facades\\YClientsSDK"
+        "YClientsSDK": "antonsayapin\\YClientsSDK\\Facades\\YClientsSDK"
       }
     }
   },
