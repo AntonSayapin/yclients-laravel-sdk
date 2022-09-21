@@ -9,7 +9,7 @@
 ## Install
 
 ``` bash
-$ composer require e-antonsayapin/yclients-laravel-sdk
+$ composer require antonsayapin/yclients-laravel-sdk
 ```
 
 **Publish config file**
@@ -20,6 +20,7 @@ $ php artisan vendor:publish --tag=yclients-laravel-sdk
 
 **Laravel 5.5+**
 
+Fork add Laravel 9 requirements.
 If you don't use auto-discovery, add the ServiceProvider to the providers array in config/app.php
 
 ``` php
