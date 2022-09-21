@@ -38,7 +38,7 @@ abstract class Request
         try {
             return $this->request();
         } catch (\Exception $e) {
-            throw new RequestException($e->getMessage(), $e->getCode());
+            throw new Exception($e->getMessage(), $e->getCode());
         }
     }
 
