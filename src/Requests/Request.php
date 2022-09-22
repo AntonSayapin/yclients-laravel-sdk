@@ -5,6 +5,7 @@ namespace antonsayapin\YClientsSDK\Requests;
 use GuzzleHttp\Client;
 use Illuminate\Support\Collection;
 use antonsayapin\YClientsSDK\Exceptions\RequestException;
+use antonsayapin\YClientsSDK\Exceptions\Exception;
 
 abstract class Request
 {
