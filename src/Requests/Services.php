@@ -13,27 +13,23 @@ class Services extends Request
 
     protected function request($method = "GET")
     {
-    	if( $this->service_id ) {
-    		$service = "/services/{$this->service_id}" ;
+	    if( $this->service_id ) {
+		    $service = "/{$this->service_id}" ;
 	    }else {
-    		$service = "" ;
+		    $service = "" ;
 	    }
 	    if( $this->staffId ) {
-		    $par[] = "staff_id={$this->staffId}" ;
+		    $this->params['staff_id'] = $this->staffId ;
 	    }
 	    if( $this->category_id ) {
-		    $par[] = "category_id={$this->category_id}" ;
-	    }
-	    $pars = "" ;
-	    if( count( $par ) > 0 ) {
-	    	$pars = "?".implode( $par , "&" ) ;
+		    $this->params['category_id'] = $this->category_id ;
 	    }
 	    switch( $method ) {
 		    case "POST" :
-			    return $this->requestApi("company/{$this->company_id}$service$par",$method);
+			    return $this->requestApi("company/{$this->company_id}/services$service",$method);
 		    case "GET" :
 		    default:
-		        return $this->requestApi("company/{$this->company_id}$service$par",$method);
+			    return $this->requestApi("company/{$this->company_id}/services$service",$method);
 	    }
     }
 }

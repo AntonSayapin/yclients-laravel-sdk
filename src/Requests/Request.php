@@ -107,6 +107,7 @@ abstract class Request
         return new Client([
             'base_uri' => $this->host,
             'timeout'  => 10,
+            'query'  => $this->params,
             'headers'  => [
                 'Authorization' => $authorization,
 	            'Content-Type' => 'application/json',
