@@ -8,7 +8,7 @@ use antonsayapin\YClientsSDK\Requests\Traits\Service;
 
 class Services extends Request
 {
-    use Company , Staff , Service ;
+    use Company , Staff , Service , Category ;
 
     protected function request($method = "GET")
     {

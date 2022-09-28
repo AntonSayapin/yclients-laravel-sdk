@@ -4,7 +4,7 @@ namespace antonsayapin\YClientsSDK\Requests\Traits;
 
 trait Service
 {
-    protected $service_id;
+    protected $service_id = false ;
 
     /**
      * @param $service_id
