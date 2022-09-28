@@ -5,6 +5,7 @@ namespace antonsayapin\YClientsSDK\Requests;
 use antonsayapin\YClientsSDK\Requests\Traits\Company;
 use antonsayapin\YClientsSDK\Requests\Traits\Staff;
 use antonsayapin\YClientsSDK\Requests\Traits\Service;
+use antonsayapin\YClientsSDK\Requests\Traits\Category;
 
 class Services extends Request
 {
